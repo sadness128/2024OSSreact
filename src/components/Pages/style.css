@@ -1,0 +1,58 @@
+*{
+   font-family: 'HY나무L';
+   text-align: center;
+}
+body, .modal-body{
+   background-color: #f9c7db;
+}
+button{
+   background-color: red;
+}
+h1{
+   margin-bottom: 0;
+   font-weight: 800;
+}
+input{
+   width: 100px;
+   height: 20px;
+   margin-bottom: 7px;
+   border: none;
+   border-bottom: 1px solid #121212;
+   text-align: left;
+}
+input:focus{
+   outline: none;
+}
+table{
+   margin: 0 auto;
+   font-size: 16px;
+}
+table, th, td{
+   border: 1px solid #121212;
+   /* border-collapse: collapse; */
+}
+#getData, #createData, #updateData, #deleteData{
+   font-size: 16px;
+}
+input[type=text]{
+   background-color: #f9c7db;
+}
+#tId{
+   width: 30px;
+   font-weight: 800;
+}
+#tName{ width: 90px; }
+#tAge{ width: 60px; }
+#tMajor{ width: 110px; }
+#tMbti{ width: 60px; }
+#tId, #tName, #tAge, #tMajor, #tMbti, .modal-header, .modal-footer{
+   background-color: #f08ebb;
+}
+.btn-sm:hover{
+   color: white;
+}
+.container{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-align: center;
+}
