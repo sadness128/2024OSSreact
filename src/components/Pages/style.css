@@ -6,7 +6,7 @@ body, .modal-body{
    background-color: #f9c7db;
 }
 button{
-   background-color: red;
+   background-color: none;
 }
 h1{
    margin-bottom: 0;

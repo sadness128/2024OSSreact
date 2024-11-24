@@ -1,5 +1,6 @@
-import React from 'react'
-import $ from "jquery";
+import React from 'react';
+import $ from 'jquery';
+import './style.css'
 
 export default function CreateList() {
    const createDataToJSONFile = () => {
